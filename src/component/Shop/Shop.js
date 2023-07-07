@@ -30,8 +30,9 @@ const Shop = () => {
                     </Product>)
                 }
             </div>
+            {/* this is a cart component */}
             <div className="cart-container">
-                
+
                 <Cart cart={cart}></Cart>
             </div>
         </div>
